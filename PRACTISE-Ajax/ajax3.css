@@ -1,0 +1,24 @@
+body{
+    background-color: #E0BC8D;
+	font-family: Arial;
+}
+td{
+    padding: 5px 100px;
+}
+.color1{
+    background-color: #DD7698;
+}
+.color2{
+    background-color: #25B6AE;
+}
+table, tr, th, td {
+    border-spacing: 0px;
+    border: 1px solid;
+}
+button{
+    background-color:#3185e6;
+	text-decoration:none;
+    outline: none;
+	cursor: pointer;
+}
+

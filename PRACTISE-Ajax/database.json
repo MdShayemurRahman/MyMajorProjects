@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "name": "Student A",
+    "course_assignment": null,
+    "exercise_points": 32
+  },
+  {
+    "id": 1,
+    "name": "Student B",
+    "course_assignment": null,
+    "exercise_points": 53
+  },
+  {
+    "id": 2,
+    "name": "Student C",
+    "course_assignment": null,
+    "exercise_points": null
+  },
+  {
+    "id": 3,
+    "name": "Student D",
+    "course_assignment": null,
+    "exercise_points": 64
+  },
+  {
+    "id": 4,
+    "name": "Student E",
+    "course_assignment": null,
+    "exercise_points": null
+  },
+  {
+    "id": 5,
+    "name": "Student F",
+    "course_assignment": null,
+    "exercise_points": 84
+  }
+]

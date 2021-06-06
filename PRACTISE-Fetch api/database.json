@@ -1,0 +1,30 @@
+{
+    "students": [
+    {
+      "id": 1,
+      "name": "Shayem",
+      "email": "sayemur.rahman@tuni.fi"
+    },
+    {
+      "id": 2,
+      "name": "bayezid",
+      "email": "bayezid.mahmud@tuni.fi"
+    },
+    {
+      "id": 3,
+      "name": "jobayel",
+      "email": "jobael.hossain@tuni.fi"
+    },
+    {
+      "id": 4,
+      "name": "raonaq lubna",
+      "email": "raqnaq.lubna@tuni.fi"
+    },
+    {
+      "id": 5,
+      "name": "emdadul hoque",
+      "email": "emdadul.hoque@tuni.fi"
+    }
+  ]
+} 
+
