@@ -1,0 +1,46 @@
+hr, .dropdown-divider {
+    margin: 0;
+}
+html, body{
+    font-family: 'Itim', cursive;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: black;
+}
+
+.sideborder{
+    box-shadow: 10px 10px 5px;
+}
+
+.form-control{
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom:1px solid tomato;
+}
+
+.form-control:focus {
+    background-color: cornflowerblue;
+}
+
+.btn-color{
+    background-color: #dfe4ea;
+}
+
+::-webkit-scrollbar{
+    width: 20px;
+    background-color: rgb(169, 202, 204);
+}
+
+::-webkit-scrollbar-thumb{
+    
+    background-color: rgb(255, 136, 0);
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 50%;
+}

@@ -1,0 +1,182 @@
+hr, .dropdown-divider {
+    margin: 0;
+}
+html, body{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+h2 {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: bolder;
+}
+
+p {
+    color: #706c6c;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.sideborder{
+    box-shadow: 10px 10px 5px;
+}
+
+.form-control{
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom:1px solid tomato;
+}
+
+.form-control:focus {
+    background-color: cornflowerblue;
+}
+
+.btn-color{
+    background-color: #dfe4ea;
+}
+
+::-webkit-scrollbar{
+    width: 0.5rem;
+    background-color: #ff4c68;
+}
+
+::-webkit-scrollbar-thumb{
+    
+    background-color: rgb(48, 23, 23);
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 50%;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0 0 2rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.btn{
+    margin: 5% 3% 5% 0;
+}
+
+/* Page Heading section */
+.pageHeading{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Image Title */
+.title-img {
+    width: 60%;
+    object-fit: cover;
+    transform: rotate(25deg);
+}
+
+/* features */
+
+#features {
+    padding: 12% 8%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.feature-box {
+    padding: 2% 4.5%;
+    text-align: center;
+}
+
+.fas{
+    margin-bottom: 1rem;
+}
+.icon {
+    color: rgb(243, 118, 73);
+}
+
+.icon:hover {
+    color: #ff4c4c;
+    transform: scale(1.1);
+}
+
+/* Testimonial Section */
+.testimonial-text{
+    text-align: center;
+    padding-bottom: 5% ;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#testimonials{
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+}
+
+.testimonial-img{
+    width: 12%;
+    border-radius: 100%;
+}
+
+/* Press section */
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Pricing section */
+
+#pricing {
+    text-align: center;
+    padding: 100px;
+    
+}
+
+
+.pricing-column {
+    padding: 3% 2%;
+    
+}
