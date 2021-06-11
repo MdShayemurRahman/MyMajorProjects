@@ -26,9 +26,37 @@
     margin-top: 18%;
 }
 
+.buttonHead{
+    color: #fff;
+    background-color: transparent;
+    margin-top: 1rem;
+    border: 1px solid crimson;
+    padding: 10px;
+}
+.buttonHead2{
+    color: #000;
+    background-color: transparent;
+    margin-top: 1rem;
+    border: 1px solid crimson;
+    padding: 10px;
+}
+.buttonHead:hover{
+    color: #fff;
+    background-color: crimson;
+    margin-top: 1rem;
+    border: 1px solid crimson;
+    padding: 10px;
+}
+.buttonHead2:hover{
+    color: #fff;
+    background-color: crimson;
+    margin-top: 1rem;
+    border: 1px solid crimson;
+    padding: 10px;
+}
 .text-1{
     font-size: 2rem;
-    font-weight: 200;
+    font-weight: 500;
 }
 
 .text-2{
@@ -40,3 +68,96 @@
     font-size: 2rem;
     font-weight: 200;
 }
+
+/* About  Section */
+
+.about{
+    padding: 2% 5%;
+    font-family: 'poppins', sans-serif;
+   
+}
+
+.Hr {
+    background-color: red;
+    padding: 1px;
+    width: 14%;
+    margin: auto;
+}
+.Hr2 {
+    background-color: #fff;
+    padding: 1px;
+    width: 20%;
+    margin: auto;
+}
+.Hr3 {
+    background-color: red;
+    padding: 1px;
+    width: 20%;
+    margin: auto;
+}
+.img{  
+    height: 500px;
+    width: auto;
+}
+
+.aboutText{
+    padding: 8% 3%;
+}
+.text{
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+}
+
+.progress {
+    background-color: transparent;
+}
+.progress, .progress-bar{
+    height: 12px;
+    border-radius: 25px;
+}
+
+/* Works */  
+
+.carousel-indicators [data-bs-target] {
+    background-color: crimson;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.carousel-indicators li {
+    
+    background: #000;
+    border-radius: 15px;
+    width: 15px;
+    height: 15px;
+}
+.carousel-indicators li .active{
+    background: crimson;
+}
+/* Testimonial Section */
+
+#review{
+    background-color: rgb(221, 13, 75);
+    text-align: center;
+    color: #fff;
+}
+
+.testimonial-text{
+    text-align: center;
+    padding-bottom: 5% ;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.testimonial-img{
+    width: 27%;
+    border-radius: 100%;
+}
+
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
