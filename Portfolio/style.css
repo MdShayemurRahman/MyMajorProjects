@@ -3,6 +3,16 @@
     box-sizing: border-box;
 }
 
+#home, #about, #skills, #works, #review, #contact {
+    height: 100vh;
+}
+
+h1, h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
 .navbar-brand{
     font-size: 2.3rem;
 }
@@ -142,6 +152,7 @@
     background-color: rgb(221, 13, 75);
     text-align: center;
     color: #fff;
+    font-family: 'Poppins', sans-serif;
 }
 
 .testimonial-text{
@@ -161,3 +172,11 @@
     padding: 7% 15%;
 }
 
+/* contact */
+
+#contact, footer {
+    font-family: 'Ubuntu', sans-serif;
+}
+textarea{
+    height: 200px;
+}
