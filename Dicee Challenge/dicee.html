@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+  </head>
+  <body>
+    <script>
+      var player1 = prompt("Player 1 Name");
+      var player2 = prompt("Player 2 Name");
+    </script>
+    <div class="container">
+      <h1>Refresh Me</h1>
+
+      <div class="dice">
+        <p id="player1"></p>
+        <img class="img1" src="">
+      </div>
+
+      <div class="dice">
+        <p id="player2"></p>
+        <img class="img2" src="">
+      </div>
+
+    </div>
+
+
+  </body>
+
+  <script>
+    document.getElementById('player1').innerText = player1;
+    document.getElementById('player2').innerText = player2;
+
+    var name1 = Math.floor(Math.random() * 6 + 1);
+    var name2 = Math.floor(Math.random() * 6 + 1);
+
+    var randomImage1 = "images/dice" + name1 + ".png";
+    var randomImage2 = "images/dice" + name2 + ".png";
+
+    var image1 = document.querySelectorAll('img')[0].setAttribute('src', randomImage1);
+    var image2 = document.querySelectorAll('img')[1].setAttribute('src', randomImage2);
+
+    if(name1 > name2){
+      document.querySelector('h1').innerHTML = "🏆 " + player1 + " Wins!";
+    } else if (name2 > name1) {
+      document.querySelector('h1').innerHTML = "🏆 " + player2 + " Wins!";
+    } else {
+      document.querySelector('h1').innerHTML = "Match Drawn!";
+    }
+    
+  </script>
+  
+</html>
