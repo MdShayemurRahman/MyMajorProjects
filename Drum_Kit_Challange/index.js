@@ -8,6 +8,8 @@ for(var i = 0; i < document.querySelectorAll('.drum').length; i++) {
         var buttonPress = this.innerHTML;
 
         makeSound(buttonPress);
+
+        buttonAnimation(buttonPress);
     });
 }
 
@@ -17,8 +19,20 @@ document.addEventListener('keydown', function(event){
 
     makeSound(event.key);
 
+    buttonAnimation(event.key);
+
 })
 
+function buttonAnimation(pressedKey){
+    
+    var activeKey = document.querySelector("." + pressedKey);
+
+    activeKey.classList.add("pressed");
+
+    setTimeout(() => {
+        activeKey.classList.remove("pressed");
+    }, 150);
+}
 // Play Sound..
 
 function makeSound(key){
